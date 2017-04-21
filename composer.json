@@ -1,0 +1,22 @@
+{
+    "name": "augustash/module-sales-rule-fix-product-condition",
+    "license": "OSL-3.0",
+    "type": "magento2-module",
+    "description": "Fixes product condition validation logic, especially for configurable products. Implements the workaround proposed in magento/magento2#8407. See https://github.com/magento/magento2/issues/8407",
+    "require": {
+    },
+    "authors":[
+        {
+            "name":"Josh Johnson",
+            "email":"josh@augustash.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Augustash\\FixSalesRule\\": ""
+        }
+    }
+}
